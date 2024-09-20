@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohan Reddy Bandi 💻🎮🎧</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquries.css" />
+  </head>
+  <body>
+    <nav id="webpage-nav">
+      <div class="logo">Rohan Reddy Bandi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="mobile-nav">
+      <div class="logo">Rohan Reddy Bandi</div>
+      <div class="mobile-menu">
+        <div class="mobile-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img
+          src="./media/profile_pic.jpg"
+          alt="Rohan Reddy Bandi Profile pic"
+          class="section_pic-img"
+        />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Rohan Reddy Bandi</h1>
+        <p class="section_text_p2">Data Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./media/ROHAN Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="./media/linkedin.png"
+            alt="My Linkedin Profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/rohan-reddy-bandi-aa0b24190/', '_blank')"
+          />
+          <img
+            src="./media/github.png"
+            alt="My Github Profile"
+            class="icon"
+            onclick="window.open('https://github.com/rohanreddy1', '_blank')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1">Get to Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img
+            src="./media/profile_pic_2.jpg"
+            alt="Profile Picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-container">
+            <div class="details-container">
+              <img
+                src="./media/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                4+ years <br />
+                Data Engineer
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./media/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p></p>
+              M.Sc. Masters Degree
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              🌟I am a business intelligence and data engineering professional 
+              with over 4 years of experience in designing, implementing, and
+              maintaining BI environments using tools like Looker, Tableau, and 
+              MicroStrategy. 🚀I have expertise in cloud technologies such as AWS, 
+              GCP, Azure, and Snowflake, and a strong passion for deriving actionable
+              insights from data. My experience spans both on-premises and cloud-based 
+              environments, where I have developed skills in system configuration,
+              performance optimization, and user support. Proficient in writing complex 
+              SQL queries and working with big data technologies like Spark, Hadoop, and Kafka, 
+              I excel at solving data engineering challenges. I am a collaborative team 
+              player committed to delivering high-quality projects on time, while continuously 
+              learning and staying updated on the latest trends in data analytics.
+            </p>
+            <p>
+              💼My <b>Entrepreneurial</b> journey has enriched my skills,
+              leading startup initiatives, securing funding, and fostering
+              innovation. 🎓With a
+              <b>Master's degree in Business Analytics and Information Systems</b> from the
+              University of South Florida, I have experience in optimizing
+              application performance, building scalable cloud solutions and
+              leading successful projects in Cloud Azure, Machine Learning and
+              Android Development. 🤝Enthusiastic and passionate about
+              collaborating on innovative projects.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./media/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#skills'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-detail-container">
+        <div class="about-container">
+          <div class="details-container">
+            <h2 class="skills-sub-title">Technologies</h2>
+            <div class="skills-article-container">
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Spark</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kafka</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                  <div>
+                  <h3>Informatica</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  />
+                 <div>
+                  <h3>Databricks</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                 />
+                 <div>
+                  <h3>Hadoop</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  />
+                <div>
+                  <h3>BigQuery</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  />
+                <div>
+                  <h3>Snowflake</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  />
+                <div>
+                  <h3>Tableau</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  />
+                <div>
+                  <h3>PYTHON</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL Server</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OOPS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Cloud and Other Tools</h2>
+            <div class="skills-article-container">
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Azure Services</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS Services</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GCP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pipelines and Jenkins</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Docker and AKS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kubernetes</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Teradata</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git &Github</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SDLC & Agile</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./media/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section_text_p1">My Learnings</p>
+      <h1 class="title">Education & Experience</h1>
+      <div class="experience-detail-container">
+        <div class="experience-about-container">
+          <div class="experience-details-container">
+            <h2 class="experience-sub-title">Education</h2>
+            <div class="experience-article-container">
+              <article>
+                <div class="text-container" data-name="p1">
+                  <h3>master’s degree in Business Analytics and information Systems</h3>
+                  <p>University of South Florida</p>
+                  <p>GPA : 3.94</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="experience-details-container">
+            <h2 class="experience-sub-title">Experience</h2>
+            <div class="experience-article-container">
+              <article>
+                <div class="exp" data-name="p3">
+                  <h3>Data Engineer</h3>
+                  <p>Aramark</p>
+                  <p>Year: MAR 2023 - APR 2024</p>
+                </div>
+              </article>
+              <article>
+                <div class="exp" data-name="p4">
+                  <h3>Data Engineer</h3>
+                  <p>Accenture</p>
+                  <p>Year: May 2019 - Aug 2022</p>
+                </div>
+              </article>
+              <article>
+                <div class="exp" data-name="p6">
+                  <h3>Startup Co-Founder</h3>
+                  <p>EASTech</p>
+                  <p>Year: DEC 2019 - MAR 2021</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-preview">
+        <div class="preview active" data-target="p1">
+          <i class="fas fa-times"></i>
+          <div class="content-wrapper">
+            <img src="./media/USF.logo.png" alt="UC Picture" class="UC-pics" />
+            <div class="text-content">
+              <h2>master’s degree in Business Analytics and information Systems</h2>
+              <h4>University Of South Florida</h4>
+            </div>
+          </div>
+          <p>
+            Coursework: Analytical Methods for Business (R), Advance Database Management System, 
+            Advance System Analysis and Design (Agile,Waterfall),Distributed and Enterprise Information Systems, 
+            Big Data for Business, Data Visualization, Data Mining.
+          </p>
+        </div>
+        <div class="preview active" data-target="p3">
+          <i class="fas fa-times"></i>
+          <div class="content-wrapper">
+            <img src="./media/Aramark.png" alt="UC Picture" class="UC-pics" />
+            <div class="text-content">
+              <h2>Data Engineer</h2>
+              <h4>Aramark</h4>
+              <h5>Roles & Responsibilities</h5>
+            </div>
+          </div>
+          <p>
+            • Performed extensive data analysis and processed over 50 petabytes of streaming data using Apache Spark, Apache Flink, Apache Kafka, Hadoop, and Python.
+          </p>
+          <p>
+            • Loaded and transformed around 100 terabytes of data into Amazon Redshift and Google Big Query, ensuring data consistency and integrity through
+             ETL development with Talend, Apache NiFi, Hadoop, and Python.           
+          </p>
+          <p>
+            • Optimized query performance and maintained high availability for 5 different Database Management Systems (DBMS), handling a combined workload of 
+            500 queries per hour, including MySQL, PostgreSQL, MongoDB, and Amazon Redshift. Fine-tuned SQL queries implemented indexing strategies, and partitioning 
+            techniques to achieve a 30% increase in query performance.           
+          </p>
+          <p>
+            •	Designed and deployed cloud-based solutions across AWS, GCP, and Microsoft Azure, handling over 1,000 data workflows using services such as Amazon S3, 
+            Google Cloud Pub/Sub, Azure Event Hubs, and Azure Synapse Analytics. Leveraged Python for scripting and automation in cloud environments.      
+          </p>
+          <p>
+            •	Implemented data quality checks using tools like Talend, Apache NiFi, Great Expectations, and Tableau to ensure data accuracy and completeness. 
+            Utilized Python for scripting data quality checks.          
+          </p>
+          <p>
+            •	Implemented data security measures using Apache Ranger, AWS Key Management Service, Azure Key Vault, and Hadoop to encrypt sensitive data and ensure 
+            compliance with security standards. Used Java for implementing security measures.           
+          </p>
+          <p>
+            •	Designed and implemented CI/CD workflows for data processing pipelines, ensuring automated integration, testing, and deployment of data transformations. 
+            Utilized Jenkins, Git, and Python for CI/CD implementation.         
+          </p>
+
+        </div>
+        <div class="preview active" data-target="p4">
+          <i class="fas fa-times"></i>
+          <div class="content-wrapper">
+            <img
+              src="./media/Accenture_Logo.png"
+              alt="UC Picture"
+              class="UC-pic"
+            />
+            <div class="text-content">
+              <h2>Data Engineer</h2>
+              <h4>Accenture</h4>
+              <h5>Roles & Responsibilities</h5>
+            </div>
+          </div>
+          <p>
+            • Leveraged Databricks platform to optimize big data processing, resulting in a 25% increase in processing speed and efficiency.
+              Utilized Scala and Python for developing scalable data processing applications. 
+          </p>
+          <p>
+            • Spearheaded A/B testing procedures, designing experiments, and scrutinizing data to furnish crucial insights for informed
+              decision-making, showcasing adeptness in experiment design and hypothesis testing using Tableau, Python, and SQL.
+          </p>
+          <p>
+            • Developed scalable data processing applications in Scala leveraging the Spark framework for efficient and high-performance data
+              analytics solutions. Utilized Python for additional scripting and automation.
+          </p>
+          <p>
+            • Implemented and optimized complex ETL pipelines using Spark to process large volumes of data stored in Google BigQuery and
+              Hadoop, ensuring data integrity, performance, and reliability. Utilized Python for scripting within ETL processes.            
+          </p>
+          <p>
+            • Engaged with 15 cross-functional teams to gather requirements and create data models, resulting in a 25% improvement in
+              retrieval speed and a 20% reduction in storage costs. Used SQL for data modeling and querying.
+          </p>
+          <p>
+            • Achieved a 30% increase in query performance by fine-tuning SQL queries, implementing indexing strategies, and partitioning
+             techniques.
+          </p>
+           <p>
+            • Implemented validation processes leading to a 15% decrease in data errors or inconsistencies, adhering to data governance best
+               practices. Utilized Python for scripting validation processes.
+          </p>
+          <p>
+            • Automated 50 data workflows, resulting in a 30% reduction in manual effort and improved efficiency in monitoring data pipelines'
+              health. Employed Python for scripting automation.
+          </p>
+        </div>
+        <div class="preview active" data-target="p6">
+          <i class="fas fa-times"></i>
+          <div class="content-wrapper">
+            <img
+              src="./media/EASTech_logo.png"
+              alt="UC Picture"
+              class="UC-pics"
+            />
+            <div class="text-content">
+              <h2>Startup Founder</h2>
+              <h4>EASTech</h4>
+              <h5>Roles & Responsibilities</h5>
+            </div>
+          </div>
+          <p>
+            • As a Co-Founder, I successfully secured state funding of $300, filed a patent application, and participated in various university competitions, 
+            including Smart India Hackathon (SIH), Tie-Grad, and Boot Camps. Additionally, I achieved state-level recognition by being ranked in the 
+            top 60 of the Telangana Innovation Yatra 2020.
+          </p>
+          <p>
+            • Design & built a multi-processing PCB with ESP32/GSM for faster
+            emergency communication (C #/Java (Android Development)) and Front-end
+            web application for Startup company using HTML, CSS and JavaScript.
+          </p>
+        </div>
+      </div>
+      <img
+        src="./media/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section_text_p1">Browse My Projects</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-detail-container">
+        <div class="about-container">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./media/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+             Real time Stock Market Analysis
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/rohanreddy1/stock_market_analysis_kafka', '_blank')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./media/project-4.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+            </div>
+            <div class="project_two">
+              <h2 class="experience-sub-title project-title">
+                Ecommerce-website
+              </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/rohanreddy1/Flask_DIS/tree/master/hello_flask-master', '_blank')"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./media/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <div class="project_three">
+              <h2 class="experience-sub-title project-title">
+                Data Vizulization Projects
+              </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://public.tableau.com/app/profile/rohan.reddy4614/vizzes', '_blank')"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./media/project-2.png"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <div class="project_three">
+              <h2 class="experience-sub-title project-title">
+                Airbnb Projects
+              </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://1100df02-677b-4d7c-bc7a-f277f91b8c6e.filesusr.com/ugd/e89b77_16de7560aa494fa3b7084ba77ee2b959.pdf', '_blank')"
+                >
+                  PDF 
+                </button>
+              </div>
+            </div>
+          </div> 
+
+        </div>
+      </div>
+      <img
+        src="./media/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <a href="mailto:rohanreddy.b24@gmail.com">
+            <img
+              src="./media/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+          </a>
+          <p>
+            <a href="mailto:rohanreddy.b24@gmail.com">rohanreddy.b24@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./media/linkedin.png"
+            alt="Linkedin icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a
+              href="https://www.linkedin.com/in/rohan-reddy-bandi-aa0b24190/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

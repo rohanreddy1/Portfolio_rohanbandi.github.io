@@ -1,0 +1,137 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+  }
+  .about-container {
+    flex-wrap: wrap;
+  }
+  .experience-about-container,
+  .experience-preview {
+    flex-wrap: wrap;
+  }
+  #about {
+    height: fit-content;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #webpage-nav {
+    display: none;
+  }
+  #mobile-nav {
+    display: flex;
+  }
+  #skills,
+  .skills-details-container {
+    margin-top: 2rem;
+  }
+  #experience,
+  .experience-details-container,
+  .experience-preview {
+    margin-top: 2rem;
+  }
+  .preview img.UC-pic {
+    max-height: 50px; /* Adjust this value as needed */
+  }
+  .preview img.UC-pics {
+    max-height: fit-content; /* Adjust this value as needed */
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section_pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-container {
+    margin-top: 0;
+  }
+  .experience-about-container,
+  .experience-preview {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-container,
+  .experience-about-container,
+  .experience-preview .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .preview {
+    padding: 10px;
+  }
+  .preview img.UC-pic {
+    max-height: 30px; /* Adjust this value as needed */
+  }
+  .preview img.UC-pics {
+    max-height: 40px; /* Adjust this value as needed */
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .skills-sub-title {
+    font-size: 1.25rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section_pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section_text_p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}
