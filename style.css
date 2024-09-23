@@ -501,6 +501,7 @@ h4 {
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
+  align-items: center; 
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
